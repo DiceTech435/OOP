@@ -12,12 +12,12 @@ require("class/table2.php");
 use Code\Html\Table as HtmlTable;
 // use Other\Table as OtherTable;
 
-$table = new HtmlTable();
+$table = new HtmlTable(); // declare instance passed as reference.
 $table->title = "My table";
 $table->numRows = 5;
 
-// declare directly
-$table2 = new Other\Table();
+
+$table2 = new Other\Table(); // declare instance directly, not passed as reference.
 $table2->title2 = "OOOh hell..";
 $table2->numRows2 = 18;
 

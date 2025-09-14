@@ -1,5 +1,5 @@
 <?php
-// class, inheritance, abstract, interface, static, trait, namespace
+// class, inheritance, abstract, interface, trait, static, namespace
 
 // CLASS
 // FINAL KEYWORD- for classes, properties or methods

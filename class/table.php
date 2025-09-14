@@ -1,6 +1,6 @@
 <?php //namespace is declared at the beginning of a file, line 1.. It can be named anything (Html, code, NewArea, Data) using backward slash
 // namespace Html;
-namespace Code\Html;
+namespace Code\Html; //This is passed as the class instance instead of 'class Table'
 
 
 class Table {
